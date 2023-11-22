@@ -40,13 +40,15 @@ echo "Entrada : $1"
 
 # Testando números
 if [ "$1" -gt 5 ]     
-# Podemos também utilizar a palavra (test) ex: `if test 4 -gt 3`
+#   Podemos também utilizar a palavra (test) ex: `if test 4 -gt 3`
+# por Convencão utilizamos colchetes que te o mesmo resultado
 then
     echo "Maior que 5"
 
 elif [ "$1" -le 4 ]
 then
     echo "Igual a 4"
+
 else
     echo "Menor que 5 e 4"
 fi
